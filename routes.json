@@ -1,0 +1,17 @@
+{
+	"middleware": [],
+	"routes": {
+		"Homepage": {
+			"path": "/",
+			"page": "pages/hello-world.js"
+		},
+		"testPage": {
+			"path": "/test/:param1?",
+			"page": "pages\\testPage.js"
+		},
+		"dataWorlds": {
+			"path": "/data/worlds.json",
+			"page": "pages\\data\\worlds.js"
+		}
+	}
+}
